@@ -56,3 +56,6 @@ def solution(name):
             return str[:index+2]
         elif index == 2 and value.lower() in consonants:
             return str[:index+1]
+        
+        def solution(name):
+            return 'Error: Name too short' if len(name) < 4 else (name[:4] if name[2] in 'aeiou' else name[:3])
